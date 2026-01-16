@@ -13,9 +13,9 @@ jobs:
             "registry.k8s.io/kube-controller-manager:v1.35.0"
             "registry.k8s.io/kube-scheduler:v1.35.0"
             "registry.k8s.io/kube-proxy:v1.35.0"
-            "registry.k8s.io/etcd:3.5.15-0"
-            "registry.k8s.io/pause:3.10"
-            "registry.k8s.io/coredns/coredns:v1.11.3"
+            "registry.k8s.io/coredns/coredns:v1.13.1"
+            "registry.k8s.io/pause:3.10.1"
+            "registry.k8s.io/etcd:3.6.6-0"
           )
           
           for img in "${IMAGES[@]}"; do
